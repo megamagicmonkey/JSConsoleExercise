@@ -29,6 +29,18 @@
         h1.textContent = 'Hello, Console!';
         console.log(h1.textContent);
       }, 3000);
+
+      function printer (insertArray){
+        var i = 0;
+        while (i < insertArray.length){
+          console.log(insertArray[i].first + " " + insertArray[i].last)
+          i++;
+        }
+        
+      }
+
+      printer(artists);
+
     </script>
   </body>
 </html>
